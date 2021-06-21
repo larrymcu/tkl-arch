@@ -1,0 +1,293 @@
+﻿@charset "UTF-8";
+
+/*-------------------------------------------------------------------------------*\
+    $iOS Style
+\*-------------------------------------------------------------------------------*/
+.dm-iosBox {
+    background-color: #fff;
+    position: fixed;
+    width: 300px;
+    top: 20%;
+    border-radius: 7px;
+    box-sizing: border-box;
+    cursor: default;
+}
+
+    .dm-iosBox h1 {
+        text-align: center;
+        margin: 20px 0px 10px 0px;
+        font-size: 25px;
+    }
+
+    .dm-iosBox .dm-iosContent {
+        height: auto;
+        font-size: 16px;
+        text-align: center;
+        min-height: 50px;
+        max-height: 500px;
+        overflow: auto;
+        overflow-x: hidden;
+    }
+
+    .dm-iosBox .dm-iosButtons {
+        border-top: 1px solid silver;
+        height: 50px;
+        line-height: 50px;
+    }
+
+        .dm-iosBox .dm-iosButtons a {
+            display: inline-block;
+            font-size: 20px;
+            font-weight: 500;
+            border-right: 1px solid silver;
+            width: 49.3%;
+            box-sizing: border-box;
+            text-align: center;
+            color: #aaa;
+        }
+
+            .dm-iosBox .dm-iosButtons a:focus {
+                color: blue;
+            }
+
+            .dm-iosBox .dm-iosButtons a:last-child {
+                border-right: none;
+            }
+
+/*-------------------------------------------------------------------------------*\
+    $toolbar-Message
+\*-------------------------------------------------------------------------------*/
+.dm-msgbox {
+    background-color: #000;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 4px;
+    -moz-box-shadow: 0 0 2px rgba(255, 255, 255, 0.6) inset;
+    -webkit-box-shadow: 0 0 2px rgba(255, 255, 255, 0.6) inset;
+    box-shadow: 0 0 2px rgba(255, 255, 255, 0.6) inset;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 0.95em;
+    padding: 15px 10px;
+    max-width: 400px;
+    z-index: 9999;
+}
+
+/*-------------------------------------------------------------------------------*\
+    $toolbar-Dialog
+\*-------------------------------------------------------------------------------*/
+.dm-confirmOverlay,
+.dm-dialogOverlay,
+.dm-popformOverlay,
+.dm-dialogMask {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: url('../../images/bgmask.png');
+    background: -moz-linear-gradient(rgba(11,11,11,0.1), rgba(11,11,11,0.6)) repeat-x rgba(11,11,11,0.2);
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgba(11,11,11,0.1)), to(rgba(11,11,11,0.6))) repeat-x rgba(11,11,11,0.2);
+    z-index: 9999;
+}
+
+.dm-dialogMask {
+    background-color: transparent;
+    background-image: none;
+    z-index: 10000;
+}
+
+.dm-popSlickOverlay {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    z-index: 990;
+}
+
+
+.dm-confirmBox, .dm-dialogBox {
+    border: 1px solid rgba(33, 33, 33, 0.6);
+    -moz-box-shadow: 0 0 2px rgba(255, 255, 255, 0.6) inset;
+    -webkit-box-shadow: 0 0 2px rgba(255, 255, 255, 0.6) inset;
+    box-shadow: 0 0 2px rgba(255, 255, 255, 0.6) inset;
+    box-sizing: border-box;
+}
+
+.dm-dialogBox {
+    background-color: #fff;
+}
+
+.dm-confirmBox {
+    background: url('../../images/bgConfirmbody.jpg') repeat-x left bottom #e5e5e5;
+}
+
+    .dm-confirmBox h1,
+    .dm-confirmContent,
+    .dm-dialogBox h1,
+    .dm-dialogContent {
+        color: #666;
+        line-height: 1.5em;
+    }
+
+.dm-dialogBox h1,
+.dm-dialogContent {
+    padding: 15px;
+}
+
+.dm-confirmBox h1,
+.dm-confirmContent {
+    background: url('../../images/bgConfirmhead.jpg') repeat-x left bottom #f5f5f5;
+    padding: 18px 25px;
+}
+
+.dm-confirmBox h1, .dm-dialogBox h1 {
+    font-size: 1.2em;
+    letter-spacing: 0.3px;
+    color: #888;
+}
+
+
+.dm-dialogBox h1 {
+    background-color: #5ea4f4;
+    color: #fff;
+}
+
+.dm-confirmContent, .dm-dialogContent {
+    background: none;
+    font-size: 16px;
+    max-height: 300px;
+    overflow: auto;
+    box-sizing: border-box;
+}
+
+.dm-confirmContent {
+    padding-top: 35px;
+    line-height: 1.4;
+}
+
+    .dm-dialogContent ol,
+    .dm-confirmContent ol {
+        margin-left: 2em;
+    }
+
+        .dm-dialogContent ol > li,
+        .dm-confirmContent ol > li {
+            font-size: 0.92em;
+            list-style: disc;
+        }
+
+.dm-confirmButtons, .dm-dialogButtons {
+    width: 100%;
+    text-align: center;
+    padding: 15px 0;
+    box-sizing: border-box;
+}
+
+    .dm-confirmButtons a, .dm-dialogButtons a {
+        display: inline-block;
+        color: white;
+        position: relative;
+        height: 33px;
+        line-height: 33px;
+        margin-right: 15px;
+        border: none;
+    }
+
+    .dm-confirmButtons a {
+        background: url('../../images/bgConfirmbtn.png') no-repeat;
+        padding: 0 35px 0 40px;
+    }
+
+        .dm-confirmButtons a:first-child {
+            margin-left: 10px;
+        }
+
+        .dm-confirmButtons a span {
+            position: absolute;
+            top: 0;
+            right: -5px;
+            background: url('../../images/bgConfirmbtn.png') no-repeat;
+            width: 5px;
+            height: 33px;
+        }
+
+        .dm-dialogButtons a:last-child, .dm-confirmButtons a:last-child {
+            margin-right: 0;
+        }
+
+/*-------------------------------------------------------------------------------*\
+    $toolbar-Confirm
+\*-------------------------------------------------------------------------------*/
+
+.dm-confirmBox .blue {
+    background-position: left top;
+    text-shadow: 1px 1px 0 #5889a2;
+}
+
+    .dm-confirmBox .blue span {
+        background-position: -195px 0;
+    }
+
+    .dm-confirmBox .blue:hover,
+    .dm-confirmBox .blue:focus {
+        background-position: left bottom;
+        color: #f00;
+    }
+
+        .dm-confirmBox .blue:hover span {
+            background-position: -195px bottom;
+        }
+
+.dm-confirmBox .gray {
+    background-position: -200px top;
+    text-shadow: 1px 1px 0 #707070;
+}
+
+    .dm-confirmBox .gray span {
+        background-position: -395px 0;
+    }
+
+    .dm-confirmBox .gray:hover {
+        background-position: -200px bottom;
+    }
+
+        .dm-confirmBox .gray:hover span {
+            background-position: -395px bottom;
+        }
+
+
+.dm-dialogContent .css_table,
+.dm-confirmContent .css_table {
+    display: table;
+    font-size: 0.9375em;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.dm-dialogContent .css_tr,
+.dm-confirmContent .css_tr {
+    display: table-row;
+    border-bottom: 1px solid silver;
+}
+
+.dm-dialogContent .css_td,
+.dm-confirmContent .css_td {
+    display: table-cell;
+    padding: 5px 5px;
+}
+
+
+@media only screen and (max-width: 400px) {
+
+    .dm-confirmButtons, .dm-dialogButtons {
+        position: absolute;
+        bottom: 0px;
+        padding-bottom: 25px;
+    }
+}

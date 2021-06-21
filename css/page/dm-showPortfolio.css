@@ -1,0 +1,197 @@
+﻿/** portfolio */
+.showPortfolio {
+    text-align: center;
+}
+
+#divNews .itemList {
+    overflow-y: auto;
+}
+
+.itemList {
+    text-align: center;
+}
+
+.portfolioItem {
+    float: left;
+    text-align: center;
+    width: 33.2%;
+    padding: 20px 10px 0px 10px;
+    box-sizing: border-box;
+    min-width: 242.5px;
+}
+
+    .portfolioItem .portfolioTitle {
+        box-sizing: border-box;
+        color: #000;
+        font-size: 16px;
+        font-weight: 600;
+        height: 52px;
+        padding: 10px 0;
+    }
+
+.view {
+    width: 100%;
+    height: 200px;
+    border: 5px solid #fff;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0px 0px 5px #aaa;
+    cursor: default;
+    box-sizing: border-box;
+}
+    .view > div.imgContainer {
+        height: 100%;
+        border: 1px solid #e0e0e0;
+    }
+
+        .view > div.imgContainer > div.img {
+            background-repeat: no-repeat;
+            background-size: auto 100%;
+            background-position-x: center;
+            background-position-y: bottom;
+            height: 100%;
+            left: 0;
+            position: absolute;
+            top: 0;
+            width: 100%;
+        }
+
+    .view .mask {
+        display: block;
+        width: 100%;
+        height: 200px;
+        position: absolute;
+        overflow: hidden;
+        top: 0;
+        left: 0;
+    }
+
+        .view .mask .info {
+            padding: 0;
+            width: 20px;
+            height: 20px;
+            color:#fff;
+        }
+
+.third-effect .mask {
+    opacity: 0;
+    overflow: visible;
+    border: 100px solid rgba(0,0,0,0.7);
+    box-sizing: border-box;
+    transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+}
+
+.third-effect .info {
+    position: relative;
+    top: 0px; /* Center the link */
+    opacity: 0;
+    transition: opacity 0.5s 0s ease-in-out;
+    -moz-transition: opacity 0.5s 0s ease-in-out;
+    -webkit-transition: opacity 0.5s 0s ease-in-out;
+    -o-transition: opacity 0.5s 0s ease-in-out;
+}
+
+.third-effect:hover .mask {
+    opacity: 1;
+    border: 100px solid rgba(0,0,0,0.7);
+}
+
+    .third-effect:hover .info {
+        opacity: 1;
+        transition-delay: 0.3s;
+    }
+
+.iconItem {
+    display: none;
+    text-align: center;
+}
+
+    .iconItem .iconContainer {
+        display: block;
+        position: relative;
+        font-size: 30px;
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+        border-radius: 7px;
+        color: #fff;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+
+    .iconItem .portfolioIconTitle {
+        margin-top: 10px;
+    }
+
+
+
+/*extra 模式*/
+#Portfolios.extra .portfolioItem,
+.showPortfolio.extra .portfolioItem {
+    float: left;
+    margin-bottom: 20px;
+}
+
+#Portfolios.extra .view,
+.showPortfolio.extra .view {
+    display: none;
+}
+
+#Portfolios.extra .portfolioTitle,
+.showPortfolio.extra .portfolioTitle {
+    display: none;
+}
+
+#Portfolios.extra .iconItem,
+.showPortfolio.extra .iconItem {
+    display: block;
+}
+
+#Portfolios.extra .portfolioItem .iconMask,
+.showPortfolio.extra .portfolioItem .iconMask {
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 7px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+#Portfolios.extra .portfolioItem:hover .iconMask,
+.showPortfolio.extra .portfolioItem:hover .iconMask {
+    display: block;
+}
+
+
+#Portfolios.extra .sectionContent {
+    display: table;
+}
+
+    #Portfolios.extra .sectionContent .sectionContentCell {
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+.newsTool {
+    box-sizing: border-box;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 1;
+}
+
+    .newsTool > a {
+        width: 30px !important;
+        min-width: 30px !important;
+        background-color: #aaa;
+        display: inline-block;
+    }
+
+        .newsTool > a > span {
+            display: none;
+        }

@@ -1,0 +1,600 @@
+﻿/*-------------------------------------------------------------------------------*\
+    $padding
+\*-------------------------------------------------------------------------------*/
+.paddingtop0 {
+    padding-top: 0 !important;
+}
+
+.paddingtop1 {
+    padding-top: 10px !important;
+}
+
+.paddingtop2 {
+    padding-top: 20px !important;
+}
+
+.paddingright0 {
+    padding-right: 0 !important;
+}
+
+.paddingright1 {
+    padding-right: 10px !important;
+}
+
+.paddingright2 {
+    padding-right: 20px !important;
+}
+
+.paddingbottom0 {
+    padding-bottom: 0 !important;
+}
+
+.paddingbottom1 {
+    padding-bottom: 10px !important;
+}
+
+.paddingbottom2 {
+    padding-bottom: 20px !important;
+}
+
+.paddingleft0 {
+    padding-left: 0 !important;
+}
+
+.paddingleft1 {
+    padding-left: 10px !important;
+}
+
+.paddingleft2 {
+    padding-left: 20px !important;
+}
+
+.paddingleft3 {
+    padding-left: 30px !important;
+}
+
+.paddingleft4 {
+    padding-left: 40px !important;
+}
+
+.paddingleft1em {
+    padding-left: 1em !important;
+}
+
+.paddingleft2em {
+    padding-left: 2em !important;
+}
+
+.paddingleft7hem {
+    padding-left: 7.5em !important;
+}
+
+.paddingall0 {
+    padding: 0 !important;
+}
+
+.paddingall1 {
+    padding: 10px !important;
+}
+
+.paddingall15 {
+    padding: 15px !important;
+}
+
+.paddingall2 {
+    padding: 20px !important;
+}
+
+/*-------------------------------------------------------------------------------*\
+    $margin
+\*-------------------------------------------------------------------------------*/
+.margin0auto {
+    margin: 0 auto;
+}
+
+.margincenter {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.marginall1 {
+    margin: 10px;
+}
+
+.marginwrapper20 {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.margin0 {
+    margin: 0px;
+}
+
+.margintop0 {
+    margin-top: 0 !important;
+}
+
+.margintop1 {
+    margin-top: 10px !important;
+}
+
+.margintop2 {
+    margin-top: 20px !important;
+}
+
+.margintop3 {
+    margin-top: 30px !important;
+}
+
+.margintop4 {
+    margin-top: 40px !important;
+}
+
+.margintop5 {
+    margin-top: 5px !important;
+}
+
+.margintop70 { /*登入後手機版本Container使用*/
+    margin-top: 70px !important;
+}
+
+.marginright0 {
+    margin-right: 0 !important;
+}
+
+.marginright1 {
+    margin-right: 10px;
+}
+
+.marginright2 {
+    margin-right: 20px;
+}
+
+.marginright1p {
+    margin-right: 1%;
+}
+
+.marginright2 {
+    margin-right: 20px;
+}
+
+.marginbottom0 {
+    margin-bottom: 0 !important;
+}
+
+.marginbottom05 {
+    margin-bottom: 5px !important;
+}
+
+.marginbottom1 {
+    margin-bottom: 10px !important;
+}
+
+.marginbottom2 {
+    margin-bottom: 20px !important;
+}
+
+.marginleft0 {
+    margin-left: 0 !important;
+}
+
+.marginleft1 {
+    margin-left: 10px !important;
+}
+
+.marginleft2 {
+    margin-left: 20px !important;
+}
+
+.marginleft3 {
+    margin-left: 30px !important;
+}
+/*-------------------------------------------------------------------------------*\
+    $width
+\*-------------------------------------------------------------------------------*/
+.width100p {
+    width: 100% !important;
+}
+
+.width95p {
+    width: 95% !important;
+}
+
+.width90p {
+    width: 90% !important;
+}
+
+.width89p {
+    width: 89% !important;
+}
+
+.width80p {
+    width: 80% !important;
+}
+
+.width70p {
+    width: 70% !important;
+}
+
+.width60p {
+    width: 60% !important;
+}
+
+.width50p {
+    width: 50% !important;
+}
+
+.width45p {
+    width: 45% !important;
+}
+
+.width40p {
+    width: 40% !important;
+}
+
+.width30p {
+    width: 30% !important;
+}
+
+.width24p {
+    width: 24% !important;
+}
+
+.width20p {
+    width: 20% !important;
+}
+
+.width12p {
+    width: 12% !important;
+}
+
+.width10p {
+    width: 10% !important;
+}
+
+.width8p {
+    width: 8% !important;
+}
+
+.width50 {
+    width: 50px !important;
+}
+
+.width60 {
+    width: 60px !important;
+}
+
+.width70 {
+    width: 70px !important;
+}
+
+.minwidth50 {
+    min-width: 50px !important;
+}
+
+.minwidth85 {
+    min-width: 85px !important;
+    width: 85px !important;
+}
+
+.minwidth90 {
+    min-width: 90px !important;
+    width: 90px !important;
+}
+
+.minwidth100 {
+    min-width: 100px !important;
+    width: 90px !important;
+}
+
+.minwidth105 {
+    min-width: 105px !important;
+    width: 105px !important;
+}
+
+.minwidth120 {
+    min-width: 120px !important;
+}
+
+.minwidth180 {
+    min-width: 180px !important;
+}
+
+.minwidth225 {
+    min-width: 225px !important;
+}
+
+/*-------------------------------------------------------------------------------*\
+    $font
+\*-------------------------------------------------------------------------------*/
+.fontbold {
+    font-weight: bold !important;
+}
+
+.font120 {
+    font-size: 1.2em !important;
+}
+
+.font100 {
+    font-size: 1em !important;
+}
+
+.font95 {
+    font-size: 0.95em;
+}
+
+.font9 {
+    font-size: 0.9em;
+}
+
+.fontsmall {
+    color: #555555;
+    font-size: 0.9375em;
+}
+
+.fonthighlight {
+    font-weight: bold !important;
+    color: red;
+    padding: 0 0.5em;
+}
+
+.fontred {
+    font-weight: bold !important;
+    color: red !important;
+}
+
+.fontBlue {
+    font-weight: bold !important;
+    color: #5ea4f4 !important;
+}
+
+/*-------------------------------------------------------------------------------*\
+    $text-align
+\*-------------------------------------------------------------------------------*/
+.textcenter {
+    text-align: center !important;
+}
+
+.textleft {
+    text-align: left !important;
+}
+
+.textright {
+    text-align: right !important;
+}
+
+.textwrap {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.texttop {
+    vertical-align: top !important;
+}
+
+.textmiddle {
+    vertical-align: middle !important;
+}
+
+/*-------------------------------------------------------------------------------*\
+    $float
+\*-------------------------------------------------------------------------------*/
+.floatNone {
+    float: none !important;
+}
+
+.floatL {
+    float: left;
+}
+
+.floatR {
+    float: right;
+}
+
+/*-------------------------------------------------------------------------------*\
+    $display
+\*-------------------------------------------------------------------------------*/
+.displaynone {
+    display: none; /*!important;*/
+}
+
+.displayblock {
+    display: inline-block;
+}
+
+/*-------------------------------------------------------------------------------*\
+    $border
+\*-------------------------------------------------------------------------------*/
+.border0 {
+    border: none;
+}
+
+.border1 {
+    border: 1px solid silver;
+}
+
+.borderall1exbottom {
+    border: 1px solid silver;
+    border-bottom: none;
+}
+
+.bordertop1 {
+    border-top-width: 1px;
+}
+
+.boxBorder {
+    box-sizing: border-box;
+}
+/*-------------------------------------------------------------------------------*\
+    $Background Color
+\*-------------------------------------------------------------------------------*/
+.bgG {
+    background-color: rgba(237,237,237,1);
+}
+
+.bgW {
+    background-color: #fff;
+}
+
+.bgHighlight {
+    background-color: rgb(147,205,221);
+    color: black;
+}
+
+.bgRed {
+    background-color: red !important;
+}
+
+/*-------------------------------------------------------------------------------*\
+    $Height
+\*-------------------------------------------------------------------------------*/
+.height2 {
+    /*height: 2em;*/
+    line-height: 2em;
+}
+
+.height25 {
+    /*height: 2.5em;*/
+    line-height: 2.5em;
+}
+
+.height3 {
+    /*height: 3em;*/
+    line-height: 3em;
+}
+
+.height35 {
+    /*height: 35px;*/
+    line-height: 35px;
+}
+
+.height4 {
+    /*height: 4em;*/
+    line-height: 4em;
+}
+
+.height70 { /*Header登入後固定手機板使用*/
+    height: 70px !important;
+}
+
+/*-------------------------------------------------------------------------------*\
+    圖片角度切換
+\*-------------------------------------------------------------------------------*/
+.rotate-90 {
+    -webkit-transform: translateY(-100%) rotate(90deg); /* Safari */
+    -moz-transform: translateY(-100%) rotate(90deg); /* Firefox 3.6 Firefox 4 */
+    -ms-transform: translateY(-100%) rotate(90deg); /* IE9 */
+    -o-transform: translateY(-100%) rotate(90deg); /* Opera */
+    transform: translateY(-100%) rotate(90deg); /* W3C */
+}
+
+.rotate-180 {
+    -moz-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.rotate-270 {
+    -moz-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    transform: rotate(270deg);
+}
+
+.flip {
+    -moz-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+.flip-and-rotate-90 {
+    -moz-transform: rotate(90deg) scaleX(-1);
+    -webkit-transform: rotate(90deg) scaleX(-1);
+    -o-transform: rotate(90deg) scaleX(-1);
+    transform: rotate(90deg) scaleX(-1);
+}
+
+.flip-and-rotate-180 {
+    -moz-transform: rotate(180deg) scaleX(-1);
+    -webkit-transform: rotate(180deg) scaleX(-1);
+    -o-transform: rotate(180deg) scaleX(-1);
+    transform: rotate(180deg) scaleX(-1);
+}
+
+.flip-and-rotate-270 {
+    -moz-transform: rotate(270deg) scaleX(-1);
+    -webkit-transform: rotate(270deg) scaleX(-1);
+    -o-transform: rotate(270deg) scaleX(-1);
+    transform: rotate(270deg) scaleX(-1);
+}
+
+/*-------------------------------------------------------------------------------*\
+    $img width/height
+\*-------------------------------------------------------------------------------*/
+.imgscalew {
+    width: 100%;
+    height: auto;
+}
+
+.imgscaleh {
+    width: auto;
+    height: 100%;
+}
+
+.size0 {
+    width: 0;
+    height: 0;
+}
+
+.zindexH {
+    z-index: 999999;
+}
+
+.styledecimal {
+    list-style: decimal !important;
+}
+/*-------------------------------------------------------------------------------*\
+    $一組搭配一個 textbox 與 button 的工具列
+\*-------------------------------------------------------------------------------*/
+
+.dm-warnmsg {
+    color: red;
+    font-weight: bold;
+}
+
+.dm-cutWord {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+/*add this to stop scroll/ remove this to enable*/
+.stop-scrolling {
+    height: 100%;
+    overflow: hidden;
+}
+
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+
+.jbtnAjax {
+    display: none !important;
+}
+
+.nav-up { /*mobile & horizontal hide header js control*/
+    top: -70px !important;
+}
+
+.nav-down { /*mobile & horizontal hide header js control*/
+    top: 0px !important;
+}

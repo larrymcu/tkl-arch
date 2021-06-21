@@ -1,0 +1,30 @@
+HTTrack3.49-2+htsswf+htsjava launched on Mon, 21 Jun 2021 22:01:28 at http://www.tkl-arch.com/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN100%I0H0%kf2A25000%f#f -F "Mozilla/5.0 (Windows; U; Windows NT 5.0; en-US; rv:1.1) Gecko/20020826" -%F  -%l "zh_TW, en, *" http://www.tkl-arch.com/ -O1 "C:\My Websites\www.tkl-arch.com" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+22:02:28	Error: 	"Not Found" (404) at link www.tkl-arch.com/images/icon-item.png (from www.tkl-arch.com/css/dm-layout.css)
+22:02:28	Error: 	"Not Found" (404) at link www.tkl-arch.com/images/icon-itemstar.png (from www.tkl-arch.com/css/dm-layout.css)
+22:02:28	Error: 	"Not Found" (404) at link www.tkl-arch.com/images/icon-itempen.png (from www.tkl-arch.com/css/dm-layout.css)
+22:02:28	Error: 	"Not Found" (404) at link www.tkl-arch.com/images/anchor.png (from www.tkl-arch.com/css/dm-layout.css)
+22:02:28	Error: 	"Not Found" (404) at link www.tkl-arch.com/images/megamenu_title_icon.png (from www.tkl-arch.com/css/dm-layout.css)
+22:02:29	Error: 	"Not Found" (404) at link www.tkl-arch.com/'/pics/person/small/2af870f3-9f46-433d-a0ad-0ce0baa0df87.jpeg' (from www.tkl-arch.com/index.aspx?Lan=1)
+22:02:29	Error: 	"Not Found" (404) at link www.tkl-arch.com/'/pics/person/small/6fbf77fc-c7aa-432c-b713-4600a6b1176e.jpeg' (from www.tkl-arch.com/index.aspx?Lan=1)
+22:02:29	Error: 	"Not Found" (404) at link www.tkl-arch.com/'/pics/person/small/b69b42b6-03f7-414d-bfab-4fae952134ff.jpeg' (from www.tkl-arch.com/index.aspx?Lan=1)
+22:02:29	Error: 	"Not Found" (404) at link www.tkl-arch.com/'/pics/person/small/63c47d24-222a-49cf-99c7-809d395aacbf.jpeg' (from www.tkl-arch.com/index.aspx?Lan=1)
+22:02:29	Error: 	"Not Found" (404) at link www.tkl-arch.com/'/pics/person/small/8b2ba5b7-db84-445e-9ebc-6df888fe301a.jpeg' (from www.tkl-arch.com/index.aspx?Lan=1)
+22:02:29	Error: 	"Not Found" (404) at link www.tkl-arch.com/'/pics/person/small/adf08c1f-3793-492d-b507-072c05a809dc.jpeg' (from www.tkl-arch.com/index.aspx?Lan=1)
+22:02:29	Error: 	"Not Found" (404) at link www.tkl-arch.com/'/pics/person/small/2fd6575c-6e0c-4a83-aba2-6401395522c8.jpeg' (from www.tkl-arch.com/index.aspx?Lan=1)
+22:02:29	Error: 	"Not Found" (404) at link www.tkl-arch.com/'/pics/person/small/357a9a0d-b0a8-4d76-afc3-98033172913b.jpeg' (from www.tkl-arch.com/index.aspx?Lan=1)
+22:02:29	Error: 	"Not Found" (404) at link www.tkl-arch.com/'/pics/person/small/bb9606c2-5afd-4c26-ad39-d374d2fa1c14.jpeg' (from www.tkl-arch.com/index.aspx?Lan=1)
+22:02:29	Error: 	"Not Found" (404) at link www.tkl-arch.com/'/pics/person/small/88336a78-01ef-4f84-8f2c-853e9079dc43.jpeg' (from www.tkl-arch.com/index.aspx?Lan=1)
+22:02:29	Error: 	"Not Found" (404) at link www.tkl-arch.com/'/pics/person/small/1fa6af7f-9da4-493f-9ace-4579945372e6.jpeg' (from www.tkl-arch.com/index.aspx?Lan=1)
+22:02:29	Error: 	"Not Found" (404) at link www.tkl-arch.com/'/pics/person/small/9c6e508a-6eb1-4dca-8d7c-bcb0f716350f.jpeg' (from www.tkl-arch.com/index.aspx?Lan=1)
+22:02:29	Error: 	"Not Found" (404) at link www.tkl-arch.com/'/pics/person/small/582eac5d-714c-49c2-aee7-c3538732f8fd.jpeg' (from www.tkl-arch.com/index.aspx?Lan=1)
+22:02:29	Error: 	"Not Found" (404) at link www.tkl-arch.com/'/pics/person/small/f748ff93-658e-4aa4-a95b-3cb1c5f69d94.jpeg' (from www.tkl-arch.com/index.aspx?Lan=1)
+
+HTTrack Website Copier/3.49-2 mirror complete in 5 minutes 58 seconds : 155 links scanned, 134 files written (8936823 bytes overall) [8532143 bytes received at 23832 bytes/sec], 776556 bytes transferred using HTTP compression in 45 files, ratio 38%, 1.0 requests per connection
+(19 errors, 0 warnings, 0 messages)

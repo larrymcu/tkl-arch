@@ -1,0 +1,280 @@
+﻿@charset "UTF-8";
+/*-----------------------------$ 行動版1024以下------------------------------*/
+@media only screen and (max-width: 1024px) {
+
+    .hide1024 {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 960px) {
+
+    .dm-footerAbout .footTel {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 841px) {
+
+    #topMenu.index #indexNavibar > ul > li {
+        display: block;
+        float: left;
+        width: auto;
+        margin-left: 15px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    .customSlick {
+        width: 100%;
+    }
+
+    .portfolioItem {
+        width: 50%;
+        max-width: 330px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+
+    .section {
+        padding-top: 60px;
+        padding-bottom: 40px;
+    }
+
+    #topMenu.index {
+        height: 50px;
+        line-height: 50px;
+    }
+        #topMenu.index #indexNavibar {
+            width: 100%;
+            left: 0px;
+        }
+
+            #topMenu.index #indexNavibar > ul > li {
+                display: inline-block;
+                float: none;
+                width: 20%;
+                margin-left: 0px;
+            }
+
+        #topMenu.index .banner {
+            position: fixed;
+            bottom: 0px;
+            width: 100% !important;
+            background-color: #fff;
+            height: 40px;
+            padding-left: 0;
+        }
+
+            #topMenu.index .banner .aLogo {
+                font-size: 25px;
+                margin: 2px auto;
+            }
+
+                #topMenu.index .banner .aLogo .logo {
+                    height: 40px;
+                }
+
+    /*#fullpage .wrapper {
+        padding-top: 55px;
+    }*/
+
+    .sectionTitle {
+        display: none !important;
+    }
+
+    .indexFatfoot {
+        display: none;
+    }
+
+    #indexNavibar li.language > ul {
+        top: 50px!important;
+    }
+
+    .staffHeader {
+        padding-bottom: 20px;
+    }
+}
+
+/*-----------------------------$ 行動版680以下------------------------------*/
+@media only screen and (max-width: 680px) {
+
+    #divImgSub {
+        display: none;
+    }
+
+    #divImgMain .slick-arrow {
+        /*display: none !important;*/
+    }
+
+    .flip-container {
+        width: 49.05%;
+    }
+
+        .flip-container:nth-child(2n+2) {
+            margin-right: 0px;
+        }
+
+    .leftbar-Logo {
+        /*display: none;*/
+    }
+}
+
+/*-----------------------------$ 行動版659以下------------------------------*/
+@media only screen and (max-width: 659px) {
+
+    .portfoliowrapper .showPortfolio {
+        vertical-align: top;
+    }
+
+    .fp-tableCell .view {
+        margin-top: 0px;
+    }
+}
+/*-----------------------------$ 行動版640以下------------------------------*/
+@media only screen and (max-width: 640px) {
+
+    .indexMain .introd, .indexMain .sliders {
+        width: 100%;
+        float: none;
+    }
+
+    .indexMain .slick-slider {
+        margin: 0 auto;
+        width: 414px;
+    }
+
+    .dm-footerToolBar {
+        width: 40px;
+    }
+
+        .dm-footerToolBar a span {
+            top: 25%;
+            left: 28%;
+        }
+
+    .section .contact > div > div:nth-child(1) {
+        float: none;
+        width: 100%;
+    }
+
+        .section .contact > div > div:nth-child(1) > div {
+            text-align: center;
+        }
+
+    .section .contact > div > div:nth-child(2) { /*divGoogleMap*/
+        height: auto;
+    }
+}
+@media only screen and (max-width: 558px) {
+
+    #topMenu.index #indexNavibar li {
+        display: block;
+        float: left;
+        width: auto;
+        margin-left: 15px;
+    }
+}
+@media only screen and (max-width: 490px) {
+
+    .section {
+        padding-top: 45px;
+        padding-bottom: 50px;
+    }
+
+        .section .sectionTitle {
+            display: block !important;
+            height: 30px !important;
+            line-height: 30px !important;
+            padding-bottom: 10px !important;
+        }
+
+    #topMenu.index {
+        height: 40px !important;
+    }
+
+        #topMenu.index .banner {
+            top: 0px;
+        }
+
+        #topMenu.index #indexNavibar {
+            position: fixed;
+            bottom: 0px;
+            height: 50px;
+            width: 100%;
+            background: #fff;
+            box-shadow: 0px -1px 1px #eaeaea;
+        }
+
+            #topMenu.index #indexNavibar > ul > li {
+                width: 20%;
+                margin-left: 0;
+            }
+
+                #topMenu.index #indexNavibar > ul > li > a {
+                    font-size: 30px;
+                }
+
+                    #topMenu.index #indexNavibar > ul > li > a > i.fa-home {
+                        font-size: 37px;
+                    }
+
+                    #topMenu.index #indexNavibar > ul > li > a > span {
+                        display: none;
+                    }
+}
+
+@media only screen and (max-width: 484px) {
+
+    .portfolioItem {
+        width: 330px;
+        padding: 0px;
+    }
+
+    #Portfolios.extra {
+        background: #fff;
+    }
+
+        #Portfolios.extra .portfolioItem,
+        .showPortfolio.extra .portfolioItem {
+            min-width: 90px;
+        }
+}
+
+/*-----------------------------$ 行動版480以下------------------------------*/
+@media only screen and (max-width: 480px) {
+
+    .hide480 {
+        display: none !important;
+    }
+
+    .dm-btn, .dm-btnConfirm, .dm-btnCancel, .dm-btnDelete {
+        min-width: 90px;
+        font-size: 0.9em;
+    }
+
+    .flip-container {
+        width: 100%;
+    }
+}
+
+
+@media only screen and (max-width: 413px) {
+    .indexMain .slick-slider {
+        width: auto;
+    }
+}
+
+@media only screen and (max-width: 385px) {
+    .hide385 {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 325px) {
+    .indexFatfoot > div, .fatfoot > div {
+        font-size: 0.9em;
+    }
+}

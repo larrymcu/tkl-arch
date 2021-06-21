@@ -1,0 +1,98 @@
+﻿.customSlick {
+    height: 100%;
+    width: -moz-calc(100% - 40px); /* Firefox */
+    width: -webkit-calc(100% - 40px); /* WebKit */
+    width: -o-calc(100% - 40px); /* Opera */
+    width: calc(100% - 40px); /* Standard */
+    margin: 0 auto;
+    z-index: 99999;
+}
+
+.dm-popSlickOverlay .close,
+.dm-popSlickOverlay .eye {
+    position: absolute;
+    top: 5px;
+    color: silver;
+    font-size: 30px;
+    cursor: pointer;
+    z-index: 99999;
+}
+
+.dm-popSlickOverlay .close {
+    right: 5px;
+}
+
+.dm-popSlickOverlay .eye {
+    left: 5px;
+}
+
+.dm-popSlickOverlay .close:hover {
+    color: #fff;
+}
+
+.slick-prev, .slick-next {
+    font-size: 2em;
+    z-index: 1;
+}
+
+.slick-prev {
+    left: 0px;
+}
+
+
+.slick-next {
+    right: 0px;
+}
+
+.customSlick .slick-prev,
+.customSlick .slick-next {
+    height: 50px;
+    color: rgb(146,208,80);
+    /*transition: all .2s ease;*/
+}
+
+.customSlick .slick-prev,
+.customSlick .slick-next {
+    color: #fff;
+    height: 100%;
+}
+
+.slick-prev:before, .slick-next:before {
+    content: '';
+}
+
+.customSlick .slick-prev:hover,
+.customSlick .slick-next:hover {
+    /*width: 40px;*/
+}
+
+.customSlick .slick-prev:hover,
+.customSlick .slick-prev:focus,
+.customSlick .slick-next:hover,
+.customSlick .slick-next:focus {
+    /*background-color: rgb(133,202,58);*/
+}
+
+.slick-list, .slick-track {
+    height: inherit;
+    margin: 0 auto;
+}
+
+.slick-slide {
+    text-align: center;
+}
+
+    .slick-slide div.slickImg {
+        width: 100%;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-size: auto 100%;
+    }
+
+        .slick-slide div.slickImg.rotate {
+            transform: rotate(90deg);
+            margin-top: 75px;
+            margin-left: -75px;
+            background-position-x: center;
+        }

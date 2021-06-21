@@ -1,0 +1,220 @@
+﻿@charset "UTF-8";
+/*-------------------------------------------------------------------------------*\
+    Board 項目
+\*-------------------------------------------------------------------------------*/
+
+#divGoogleMap {
+    height: inherit;
+    position: relative;
+    overflow: hidden;
+}
+
+    #divGoogleMap.extra {
+        float: right;
+        width: 60%;
+    }
+
+    #divGoogleMap #map {
+        margin: 20px 0px;
+        height: 468px;
+    }
+
+@media screen and (max-width: 960px) {
+    #divGoogleMap #map {
+        height: 382px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #divGoogleMap #map {
+        height: 336px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    #divGoogleMap #map {
+        height: 270px;
+    }
+}
+/*-------------------------------------------------------------------------------*\
+    NewsList and NewsDetail 項目
+\*-------------------------------------------------------------------------------*/
+.newsTopToolBar {
+    clear: both;
+    height: 38px;
+    line-height: 38px;
+    overflow: hidden;
+    padding: 10px 0px 10px 10px;
+}
+
+    .newsTopToolBar > ul.bread {
+        float: left;
+    }
+
+        .newsTopToolBar > ul.bread > li {
+            display: inline-block;
+        }
+
+            .newsTopToolBar > ul.bread > li select {
+                border: 0px;
+                outline: 0px;
+                width: 115px;
+                color: #000;
+            }
+
+    .newsTopToolBar > div.viewTool,
+    .newsTopToolBar > div.dm-head_tool {
+        overflow: hidden;
+        text-align: right;
+    }
+
+        .newsTopToolBar > div.viewTool > a {
+            font-size: 25px;
+            margin-right: 20px;
+        }
+
+            .newsTopToolBar > div.viewTool > a:last-child {
+                margin-right: 0;
+            }
+
+            .newsTopToolBar > div.viewTool > a:hover,
+            .newsTopToolBar > div.viewTool > a.active {
+                color: #5ea4f4;
+            }
+
+.topToolBar {
+    margin: 10px 0px;
+    overflow: hidden;
+}
+
+.topToolBar a {
+    display: inline-block;
+}
+
+.newsImg > div {
+    width: 100%;
+    padding-top: 56.25%;
+}
+
+    .newsImg > div > div.imgContainer {
+        height: 100%;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-position-Y: center;
+    }
+
+.flip-container {
+    perspective: 1000px;
+    transform-style: preserve-3d;
+}
+
+    .flip-container:nth-child(3n+3) {
+        margin-right: 0px;
+    }
+
+    .flip-container:hover .flipper,
+    .flip-container.hover .flipper {
+        transform: rotateY(180deg);
+    }
+
+    /*.flip-container:hover .back,
+    .flip-container.hover .back {
+        transform: rotateY(0deg);
+    }
+
+    .flip-container:hover .front,
+    .flip-container.hover .front {
+        transform: rotateY(180deg);
+    }*/
+
+.flip-container {
+    box-sizing: border-box;
+    display: inline-block;
+    position: relative;
+    width: 32.5%;
+    margin-right: 0.5%;
+    margin-bottom: 25px;
+}
+
+.front, .back {
+    width: 100%;
+}
+
+.flipper {
+    transition: 0.6s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+.front, .back {
+    backface-visibility: hidden;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+.front {
+    z-index: 2;
+    /* for firefox 31 */
+    transform: rotateY(0deg);
+}
+
+    .front .newsTitle {
+        position: absolute;
+        top: 0;
+        right: 0;
+        background-color: #eaeaea;
+        padding: 10px;
+    }
+
+/* back, initially hidden pane */
+.back {
+    transform: rotateY(180deg);
+    position: absolute;
+}
+
+    .back .mask {
+        opacity: 0;
+        background: url(../images/bgmask.png);
+        height: 100%;
+        box-sizing: border-box;
+        transition: all 0.4s ease-in-out;
+        -moz-transition: all 0.4s ease-in-out;
+        -webkit-transition: all 0.4s ease-in-out;
+        -o-transition: all 0.4s ease-in-out;
+    }
+
+    .back a.aLink {
+        color: #fff;
+        border: none;
+        text-decoration: none;
+        width: 100%;
+        text-align: center;
+        top: 40%;
+        position: absolute;
+        opacity: 0;
+        transition: opacity 0.5s 0s ease-in-out;
+        -moz-transition: opacity 0.5s 0s ease-in-out;
+        -webkit-transition: opacity 0.5s 0s ease-in-out;
+        -o-transition: opacity 0.5s 0s ease-in-out;
+    }
+
+        .back a.aLink i {
+            margin-bottom: 10px;
+        }
+
+.flip-container:hover .back .mask,
+.flip-container.hover .back .mask {
+    opacity: 1;
+}
+
+.flip-container:hover .back a.aLink,
+.flip-container.hover .back a.aLink {
+    opacity: 1;
+    transition-delay: 0.3s;
+}

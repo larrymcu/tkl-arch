@@ -1,0 +1,30 @@
+﻿/* default */
+.indexMain {
+    box-sizing: border-box;
+    /*margin: 20px 0px;*/
+    overflow: hidden;
+    text-align: center;
+    width: 100%;
+}
+
+    .indexMain .introd, .indexMain .sliders {
+        display: inline-block;
+        overflow: hidden;
+        width: 50%;
+    }
+
+    .indexMain .introd {
+        float: left;
+        height: 300px;
+        padding-top: 15px;
+    }
+
+        .indexMain .introd p {
+            display: none;
+            line-height: 28px;
+            padding-bottom: 5px;
+        }
+
+    .indexMain .sliders {
+        position: relative;
+    }

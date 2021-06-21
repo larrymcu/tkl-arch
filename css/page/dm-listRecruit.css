@@ -1,0 +1,49 @@
+﻿
+.itemList {
+    /*display: table-cell;*/
+    vertical-align: top;
+}
+
+    .itemList .recruitTitle {
+        display: flex;
+        width: 100%;
+    }
+
+        .itemList .recruitTitle .newsTitle {
+            text-align: center;
+            width: 33.3%;
+            box-sizing: border-box;
+            padding: 10px 0px;
+            cursor: pointer;
+            font-size: 18px;
+            font-size: 3vmin;
+        }
+
+            .itemList .recruitTitle .newsTitle:hover,
+            .itemList .recruitTitle .newsTitle.active {
+                border-bottom: 1px solid silver;
+            }
+
+    .itemList .recruitContent {
+        display: none;
+        margin: 0 5px;
+    }
+
+        .itemList .recruitContent.active {
+            display: block;
+        }
+
+        .itemList .recruitContent .newsContent {
+            line-height: 50px;
+            margin: 0 auto;
+            min-width: 320px;
+            font-size: 16px;
+            font-size: 3vmin;
+            text-align: left;
+            box-sizing: border-box;
+        }
+
+                .itemList .recruitContent ul.newsContent > li {
+                    text-indent: -4rem;
+                    margin-left: 4rem;
+                }

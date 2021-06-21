@@ -1,0 +1,166 @@
+﻿#fullpage {
+    position: relative;
+}
+
+.section {
+    box-sizing: border-box;
+    clear: both;
+    display: none;
+    left: 0;
+    overflow: hidden;
+    padding-top: 70px;
+    padding-bottom: 61px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+    .section#Staff, .section#Recruitment, .section#Contact {
+        background: rgb(122,121,122); /* Old browsers */
+        background: -moz-linear-gradient(to right bottom, rgb(0,0,0) 0%, rgb(122,121,122) 77%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(to right bottom, rgb(0,0,0) 0%, rgb(122,121,122) 77%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to right bottom, rgb(0,0,0) 0%, rgb(122,121,122) 77%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        color: #fff;
+    }
+
+    .section#Portfolios {
+        background: rgb(255,255,255); /* Old browsers */
+        background: -moz-linear-gradient(to top, #dfe9f3 0%, white 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(to top, #dfe9f3 0%, white 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to top, #dfe9f3 0%, white 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    }
+
+.wrapper {
+    height: 100%;
+}
+
+    .wrapper.staffwrapper {
+        max-width: 700px;
+    }
+
+    .wrapper.portfoliowrapper {
+        max-width: 1024px;
+    }
+
+    .wrapper.recruitwrapper {
+        max-width: 700px;
+    }
+
+    .wrapper.contactwrapper {
+        max-width: 1024px;
+    }
+
+    .wrapper > .indexContainer {
+        height: 100%;
+    }
+
+        .wrapper > .indexContainer .sectionTitle {
+            display: block;
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 70px;
+            height:70px;
+            text-align: center;
+            padding-bottom: 50px;
+        }
+
+        .wrapper > .indexContainer .sectionContent {
+            height: 100%;
+            width: 100%;
+        }
+
+            .wrapper > .indexContainer .sectionContent .sectionContentCell {
+                margin: 0 auto;
+                height: 100%;
+                width: 100%;
+                overflow: auto;
+            }
+
+    /*.wrapper.extra {
+        padding-top: 0px !important;
+    }*/
+
+    .wrapper > .indexContainer .sectionTitle.extra {
+        height: 30px;
+        line-height: 30px;
+        padding-bottom: 0px;
+    }
+
+/** Contact us */
+
+.wrapper.contactwrapper .sectionContentCell {
+    box-sizing: border-box;
+    padding: 0 10px;
+    /*vertical-align: middle;*/
+}
+
+.contactInfo {
+    display: table;
+    float: left;
+    height: auto;
+    width: 40%;
+}
+
+    .contactInfo > div {
+        display: table-cell;
+        height: 100%;
+        /*vertical-align: middle;*/
+        float: right;
+        margin: 10px 20px 0 0;
+    }
+
+    .contactInfo p {
+        line-height: 36px;
+    }
+
+        .contactInfo p a {
+            color: #fff;
+            cursor: pointer;
+        }
+
+    .contactInfo h2 {
+        font-size: 24px;
+        font-size: 7vmin;
+    }
+
+    .contactInfo h3 {
+        font-size: 16px;
+        font-size: 4.7vmin;
+        margin-bottom: 20px;
+    }
+
+#divGoogleMap {
+    overflow: hidden;
+    color: #000;
+}
+
+    #divGoogleMap #map {
+        margin: 0px !important;
+        max-height: 600px;
+    }
+
+
+.contactwrapper .sectionContentCell.extra .contactInfo {
+    width: 100%;
+    height: auto;
+}
+
+    .contactwrapper .sectionContentCell.extra .contactInfo > div {
+        display: block;
+        width: 100%;
+        margin: 0;
+        text-align: center;
+    }
+
+    .contactwrapper .sectionContentCell.extra .contactInfo h3 {
+        margin-bottom: 0;
+    }
+
+    .contactwrapper .sectionContentCell.extra .contactInfo p {
+        /*line-height: 20px;*/
+    }
+
+.contactwrapper .sectionContentCell.extra #divGoogleMap {
+    float: right;
+    width: 100%;
+}

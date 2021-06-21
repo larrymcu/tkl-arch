@@ -1,0 +1,93 @@
+﻿@charset "UTF-8";
+
+* {
+    border: 0;
+    margin: 0;
+    outline: none;
+    padding: 0;
+    vertical-align: middle;
+}
+
+body {
+    font-family: sans-serif, '微軟正黑體', 'Trebuchet MS', Arial;
+}
+
+html {
+    line-height: 1;
+    font-size: 100%;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+fieldset {
+    border: 1px solid silver;
+    margin: 20px 20px 0px 20px;
+    padding: 10px;
+}
+
+legend {
+    display: block;
+    padding: 0px 2px;
+    border: none;
+    color: red;
+}
+
+button, input {
+    line-height: normal;
+}
+
+button, select {
+    text-transform: none;
+}
+
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+    -webkit-appearance: button;
+    cursor: pointer;
+}
+
+    button[disabled], html input[disabled] {
+        cursor: default;
+    }
+
+textarea {
+    overflow: auto;
+    vertical-align: top;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    color: #ccc;
+}
+
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #ccc;
+}
+
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #ccc;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color: #ccc;
+}
+
+a:focus, input[type='button']:focus {
+    outline: none;
+}
