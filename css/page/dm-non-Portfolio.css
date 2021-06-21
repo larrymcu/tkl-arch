@@ -2,3 +2,6 @@
 .third-effect .mask{
 	position: unset!important;
 }
+.dm-dialogOverlay,.dm-msgbox {
+    display: none!important;
+}
